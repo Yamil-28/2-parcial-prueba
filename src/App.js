@@ -1,13 +1,7 @@
-import CardHeader from "./components/moleculas/CardHeader";
-import CardBody from "./components/moleculas/CardBody";
+import Card from "./components/organismos/Card";
 
 function App() {
-  return (
-    <>
-      <CardHeader title="Agenda" code="SAAS-0000" color="red" />
-      <CardBody description="Descripción ejemplo" date="3/8/2020" />
-    </>
-  );
+  return <Card />;
 }
 
 export default App;
