@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import CardHeader from "./components/moleculas/CardHeader";
+import CardBody from "./components/moleculas/CardBody";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CardHeader title="Agenda" code="SAAS-0000" color="red" />
+      <CardBody description="Descripción ejemplo" date="3/8/2020" />
+    </>
   );
 }
 
