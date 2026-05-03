@@ -1,7 +1,7 @@
-import Card from "./components/organismos/Card";
+import HomeTemplate from "./components/template/HomeTemplate";
 
 function App() {
-  return <Card />;
+  return <HomeTemplate />;
 }
 
 export default App;
