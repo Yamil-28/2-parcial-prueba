@@ -4,9 +4,9 @@ import Card from "../organismos/Card";
 function HomeTemplate() {
   return (
     <div className="container">
-      <Card />
-      <Card />
-      <Card />
+      <Card color="red" />
+      <Card color="purple" />
+      <Card color="blue" />
     </div>
   );
 }
